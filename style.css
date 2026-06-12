@@ -1,0 +1,59 @@
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16%;
+    background-color: aquamarine;
+}
+.main{
+    display: flex;
+    gap: 180px;
+}
+
+
+input {
+    width: 54%;
+    padding: 10px;
+    outline: none;
+        
+}
+button{
+   
+     outline: none;
+    border: none;
+    padding: 12px;
+     margin-bottom: 12px;
+     border-radius: 7px;
+}
+
+#addtask{
+    padding: 14px;
+    border-radius: 7px;
+}
+li {
+    width: 180px;
+  list-style: none;
+    outline: none;
+    border: none;
+
+   
+}
+h1{
+    text-align: center;
+}
+.inputdiv{
+     text-align: center;
+     width: 100%;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+   
+    width: 60%;
+    border-radius: 20px;
+    background-color: burlywood;
+  
+}
